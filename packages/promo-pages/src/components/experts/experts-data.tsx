@@ -467,36 +467,44 @@ export const experts: Expert[] = [
 			</div>
 		),
 	},
-	{
-		slug: 'sam-bowen-hughes',
-		name: 'Sam Bowen Hughes',
-		image: '/img/freelancers/sam-bowen-hughes.jpeg',
-		website: null,
-		x: null,
-		github: 'sambowenhughes',
-		linkedin: 'in/sambowenhughes/',
-		email: 'sambowenhughes@icloud.com',
-		videocall: 'https://calendly.com/hello-reactvideoeditor/30min',
-		since: new Date('2025-06-03').getTime(),
-		description: (
-			<div>
-				Full-stack engineer with 10+ years experience. I built{' '}
-				<a
-					target={'_blank'}
-					href="https://reactvideoeditor.com?utm_source=remotion"
-				>
-					React Video Editor
-				</a>{' '}
-				and{' '}
-				<a target={'_blank'} href="https://clippkit.com?utm_source=remotion">
-					Clippkit
-				</a>
-				.<br />I can help with anything Remotion-related, or just be a reliable
-				engineering partner if you need someone who moves fast and builds things
-				right – SaaS, design, backend, whatever&apos;s needed.
-			</div>
-		),
-	},
+{
+  slug: 'sam-bowen-hughes',
+  name: 'Sam Bowen Hughes',
+  image: '/img/freelancers/sam-bowen-hughes.jpeg',
+  website: null,
+  x: null,
+  github: 'sambowenhughes',
+  linkedin: 'in/sambowenhughes/',
+  email: 'sam@reactvideoeditor.com',
+  videocall: 'https://calendly.com/reactvideoeditor/30min',
+  since: new Date('2025-06-03').getTime(),
+  description: (
+    <div>
+      Senior engineer with 10+ years of experience building digital products.
+      I'm the creator of{' '}
+      <a
+        target="_blank"
+        rel="noopener noreferrer"
+        href="https://reactvideoeditor.com?utm_source=remotion"
+      >
+        React Video Editor
+      </a>{' '}
+      and{' '}
+      <a
+        target="_blank"
+        rel="noopener noreferrer"
+        href="https://clippkit.com?utm_source=remotion"
+      >
+        Clippkit
+      </a>.
+      <br />
+      Through RVE we help companies design and build full-scale applications with
+      Remotion at the core, from custom video editors and rendering pipelines to
+      complete SaaS products. We cover everything end-to-end including product
+      design, frontend, backend, and infrastructure.
+    </div>
+  ),
+},
 	{
 		name: 'Shankhadeep Dey',
 		image: '/img/freelancers/shankhadeep.png',
